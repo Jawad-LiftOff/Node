@@ -16,6 +16,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		.when('/contact', {
 			templateUrl: 'views/contact.html',
 			controller: 'ContactController'	
+		})
+		
+		.when('/products', {
+			templateUrl: 'views/products.html',
+			controller: 'ProductsController'	
 		});
 
 	$locationProvider.html5Mode(true);
