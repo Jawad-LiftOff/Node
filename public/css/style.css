@@ -2,6 +2,20 @@ body { padding-top:30px; }
 
 .white { color: white !important}
 
+
+.ri-grid{
+	width: 600px;
+}
+
+.ri-grid ul li,
+.ri-grid ul li a{
+	width: 100px;
+	height: 100px;
+}
+.ri-grid ul li a img{
+	width: 100%;
+}
+
 .ri-grid{
 	margin: 30px auto 30px;
 	position: relative;
@@ -133,17 +147,4 @@ body { padding-top:30px; }
 	left: 50%;
 	margin: 100px 0 0 -15px;
 	display: block;
-}
-
-.ri-grid{
-	width: 600px;
-}
-
-.ri-grid ul li,
-.ri-grid ul li a{
-	width: 100px;
-	height: 100px;
-}
-.ri-grid ul li a img{
-	width: 100%;
 }
