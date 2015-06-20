@@ -1,3 +1,4 @@
 module.exports = {
-	url : 'mongodb://<user>:<pass>@mongo.onmodulus.net:27017/uw45mypu'
-}
+	prourl : 'mongodb://myapp-user:pass123@ds047762.mongolab.com:47762/myapp',
+  localurl : 'mongodb://localhost/myapp'
+};
